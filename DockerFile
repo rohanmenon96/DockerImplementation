@@ -1,0 +1,7 @@
+# http://192.168.99.100
+FROM node:9-slim
+WORKDIR /app
+COPY package.json /app
+RUN npm install
+COPY . /app
+CMD ["npm","start"]
