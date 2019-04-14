@@ -5,5 +5,5 @@ app.listen(3000,()=>{
 })
 
 app.get("/",async(req,res)=>{
-    res.send("Hello Web Hook!")
+    res.send("Hello Jenkins!")
 })
