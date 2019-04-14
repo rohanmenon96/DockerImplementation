@@ -5,5 +5,5 @@ app.listen(3005,()=>{
 })
 
 app.get("/",async(req,res)=>{
-    res.send("Hello Hem!")
+    res.send("Hello Hem2!")
 })
